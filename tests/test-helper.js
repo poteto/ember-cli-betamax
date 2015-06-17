@@ -4,8 +4,6 @@ import cassette from './helpers/cassette';
 import {
   setResolver
 } from 'ember-qunit';
-import cassette from './helpers/cassette';
-import insertCassette from './helpers/insert-cassette';
 
 setResolver(resolver);
 insertCassette(cassette);
